@@ -1,0 +1,11 @@
+{
+    "name": "svidetel-bot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "firebase": "^5.0.4",
+      "telegraf": "^3.25.0",
+      "telegraf-session-firebase": "^0.1.0"
+    }
+  }
