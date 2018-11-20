@@ -53,4 +53,11 @@ bot.use(session());
 bot.use(stage.middleware());
 
 bot.action("Начать", (ctx) => ctx.scene.enter("main"));
+
+
+const API_TOKEN = process.env.API_TOKEN || '';
+const PORT = process.env.PORT || 3000;
+const URL = process.env.URL || 'https://powerful-citadel-24733.herokuapp.com';
+
+
 bot.startPolling();
