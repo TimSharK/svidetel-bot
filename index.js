@@ -1,21 +1,23 @@
-const firebase = require('firebase');
 const Telegraf = require('telegraf');
+const WizardScene = require('telegraf/scenes/wizard')
+const Stage = require('telegraf/stage')
+const session = require('telegraf/session')
+const Scene = require('telegraf/scenes/base')
 const firebaseSession = require('telegraf-session-firebase')
+const admin = require('firebase-admin')
 
 // Init Firebase
-firebase.initializeApp({
-    apiKey: "AIzaSyAs4jl6fqOIxk1IBWS1luzWrZErt1kI8gk",
-    authDomain: "svidetel-bot.firebaseapp.com",
-    databaseURL: "https://svidetel-bot.firebaseio.com",
-    projectId: "svidetel-bot",
-    storageBucket: "svidetel-bot.appspot.com",
-    messagingSenderId: "546022080584"
-});
+const serviceAccount = require('./cred.json')
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://svidetel-bot.firebaseio.com"
+})
+const database = admin.database()
 
 // Bot config
-const token = '753858273:AAEd1ojEssmNIe6rGSHtfOY9knHthysBzng';
+const token = '771814031:AAFn9Tz1HkmyIlCwuJdMWXU6ebMs-4Bk1AU';
 const bot = new Telegraf(token);
-bot.use(firebaseSession(firebase.ref('sessions')))
+bot.use(firebaseSession(database.ref('sessions')))
 
 // Scenario
 const main = new WizardScene(

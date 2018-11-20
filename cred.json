@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "svidetel-bot",
+  "private_key_id": "0f7c054ca35dd39cb3648204f2b735078884beb4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDgKvyjzp4dVD0Z\nKRIizTG+Ni9odAB7ArN1Kt5cr1SQwSXLxGBGJNHxygdZZMvfuEGMagL7MqIawCTR\nCr5SVt5m4ey58nwa7MJD8DP8+sLTd3EWVrxuOZFiXnzDsfUwJRnq5Gq+A4x4OzvS\n9hyUq41cq4YjlYV+1iDQjFf5G2NZak/ycs0p+G/Jt2XNV/W3njWJUrTtH184szze\n9wR2dz+LKk8JHvruPRMpRQmKHuZ4jHtUJEv4ZjWiwsnxfH+3SZU/N5c8Y9hbuUZA\nKr6zDHmMDWSJMlJzqeBJX3Z6Wa9VYGmJbtXkKbhNr7BD+4MMjTxXmYIybGTNZPNK\n80NUustxAgMBAAECggEAE1NhaHXdp8WlZs/lol5yVWWyfJzTlcdL1WQWu4LaFYix\nS3nomuN9vgyeyZQpB2aJMCPLkgBxfUDna6YzdkHK9q+vivBexqt2rAi/UqYDudto\nQnbD0/Telc5zjyN+ceIg8+ExWqRPreXdaHiTSjXn//9BlzvCwIaRWalfxDgaPpEE\neT3VifrEacFxzil4Q8pDjnBuiVimfJ8E+JXd0/Bu//f+DIekP2CInsTzsuG6cyyK\nQZPfTqZvwIufhGuNOIV/rfuIwfaQb7lhdnnnUeeDCIHqTHYY0gdPuyfxMPj09IV6\nWsF7Fh+ta313F1NQ33K8ouZhwCh8C/OQHD2tyTrkCQKBgQDwU194XF5yaf5dA17f\nQ4Vrz+Xr7aYKorV9BaZkG0gk6x3gIzLPGyIyocFVavh1LKdTdqx1z2sB6q55pCA5\nzcQottFpcqFgFG+ZpfgdFMe9OsqjFkGiQ2aC+nA3/NYjzzSX4GCtW8c58lP4T6N3\nQeIEy2BL/ukec7DBGHnrd1B+DwKBgQDuydV+ULbJ+A+BVKdUYVCMbwbieNmqneXA\n9EgW5S+Dub1SVE+i2jqA3eTqxdNIv6l2m6wsrZGz5q+h8sh9L88t2P7W0PMGFbor\neeAWEq1Em7T9gzvYJWIBN8AyZX4zpZi0Ms3qkSPlbc32oJfVS3TunZOHpMbG63AM\nJVf+eRGefwKBgF4h6fU1CPF7vtwj49dDlVEDX6Wnsi/cR4Yu3lu7q+h6B3uxjcc9\nc4mtfhK9EZCj6u5wP2Dt25YmnCydMtoxVLI12ZSaB8egeY4PSj3p08q06oYyw4aR\nK+gFvErRx/bCxHDwvC1rE4AJAQbz+q1NqwABwThDIoCBBCy+L5Mhau/VAoGADNYW\nvvKR0Ouf0cD+Ob/9d38kbJo4gT55slSvZ2OsmTUr4zgbC9MVYAYNnz1BLWD4OCMI\nL2KpOXWGLXuCoZAnX/yRPnT/C22xk1K65BTe8Zg5M4ORfP4NdalMkKj6DsaxHca5\nYQmqV1P+xWo+nz2uLIGWA62s7daMMGr1fv19H/sCgYEA7Ebxm43hhMweyK0HW/Uh\n+21LmqDi+Z/o9s5KNArLus0cdwX8C/+guM358c+B6VWLiHWlZuSWe+ZdRcgC5d3h\nNGXs+HyGHLtAQaaaL4uRle+8CVgyhVz0tswtUe4w1aJ7fC5H4wgYJVi/qn1vR8l5\nP60ZoPyeOvkZG/wgAit2rdU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-zl4kz@svidetel-bot.iam.gserviceaccount.com",
+  "client_id": "104570317565450249555",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zl4kz%40svidetel-bot.iam.gserviceaccount.com"
+}
