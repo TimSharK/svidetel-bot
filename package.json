@@ -7,12 +7,13 @@
     "node": "8.11.1"
   },
   "scripts": {
-    "build": "webpack --mode development"
+    "start": "micro-bot"
   },
   "dependencies": {
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "firebase-admin": "^6.2.0",
+    "micro-bot": "^2.5.0",
     "telegraf": "^3.25.0",
     "telegraf-session-firebase": "^0.1.0"
   }
