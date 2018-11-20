@@ -4,6 +4,8 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
+      "webpack": "^4.25.1",
+      "webpack-cli": "^3.1.2",
       "firebase": "^5.0.4",
       "telegraf": "^3.25.0",
       "telegraf-session-firebase": "^0.1.0"
