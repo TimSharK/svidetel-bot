@@ -1,18 +1,7 @@
 const { Composer, Stage, Scene, session } = require('micro-bot')
-const firebaseSession = require('telegraf-session-firebase')
-const admin = require('firebase-admin')
-
-// Init Firebase
-const serviceAccount = require('./cred.json')
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://svidetel-bot.firebaseio.com"
-})
-const database = admin.database()
 
 // Bot config
 const bot = new Composer()
-bot.use(firebaseSession(database.ref('sessions')))
 
 // Scenario
 
