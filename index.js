@@ -30,7 +30,7 @@ var scene2 = new Scene("scene2");
 scene2.enter((ctx) => ctx.reply(scene2Greet));
 scene2.on('message', (ctx) => {
     if (ctx.message.text === "16d982r")
-        ctx.scene.enter("scene2");
+        ctx.scene.enter("scene3");
     else
         ctx.reply("Что-то пошло не так");
 });
@@ -39,7 +39,7 @@ var scene3 = new Scene("scene3");
 scene3.enter((ctx) => ctx.reply(scene3Greet));
 scene3.on('message', (ctx) => {
     if (ctx.message.text === "5dr643")
-        ctx.scene.enter("scene3");
+        ctx.scene.enter("scene4");
     else
         ctx.reply("Что-то пошло не так");
 });
@@ -48,7 +48,7 @@ var scene4 = new Scene("scene4");
 scene4.enter((ctx) => ctx.reply(scene4Greet));
 scene3.on('message', (ctx) => {
     if (ctx.message.text === "3d3r43")
-        ctx.scene.enter("scene4");
+        ctx.scene.enter("scene5");
     else
         ctx.reply("Что-то пошло не так");
 });
