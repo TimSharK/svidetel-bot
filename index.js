@@ -46,7 +46,7 @@ scene3.on('message', (ctx) => {
 
 var scene4 = new Scene("scene4");
 scene4.enter((ctx) => ctx.reply(scene4Greet));
-scene3.on('message', (ctx) => {
+scene4.on('message', (ctx) => {
     if (ctx.message.text === "3d3r43")
         ctx.scene.enter("scene5");
     else
