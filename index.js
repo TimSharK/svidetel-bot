@@ -1,8 +1,6 @@
 const Telegraf = require('telegraf');
 const WizardScene = require('telegraf/scenes/wizard')
-const Stage = require('telegraf/stage')
-const session = require('telegraf/session')
-const Scene = require('telegraf/scenes/base')
+const { Composer, Stage, Scene, session } = require('micro-bot')
 const firebaseSession = require('telegraf-session-firebase')
 const admin = require('firebase-admin')
 
@@ -15,8 +13,7 @@ admin.initializeApp({
 const database = admin.database()
 
 // Bot config
-const token = '771814031:AAFn9Tz1HkmyIlCwuJdMWXU6ebMs-4Bk1AU';
-const bot = new Telegraf(token);
+const bot = new Composer()
 bot.use(firebaseSession(database.ref('sessions')))
 
 // Scenario
@@ -50,7 +47,8 @@ const stage = new Stage();
 stage.register(main);
 
 bot.use(session());
-bot.use(stage.middleware());
+bot.use(stage);
 
 bot.action("Начать", (ctx) => ctx.scene.enter("main"));
-bot.startPolling();
+
+module.exports = bot
