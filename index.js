@@ -57,7 +57,7 @@ var scene5 = new Scene("scene5");
 scene5.enter((ctx) => ctx.reply(scene5Greet));
 scene5.on('message', (ctx) => {
     if (ctx.message.text === "6d76r4")
-        ctx.scene.enter("scene5");
+        ctx.scene.leave()
     else
         ctx.reply("Что-то пошло не так");
 });
