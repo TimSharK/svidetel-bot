@@ -60,6 +60,10 @@ scene5.on('message', (ctx) => {
         ctx.scene.leave()
     else
         ctx.reply("Что-то пошло не так");
+    if (ctx.message.text === "6d76r4") { 
+ctx.reply("Now, enlarge your penis");
+ctx.scene.leave(); 
+}
 });
 
 
