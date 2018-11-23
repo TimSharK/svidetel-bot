@@ -64,7 +64,8 @@ scene1.on('message', (ctx) => {
 
 
 const stage = new Stage();
-stage.register(main);
+stage.register(scene1);
+stage.register(scene2);
 
 bot.use(session());
 bot.use(stage);
