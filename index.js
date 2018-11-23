@@ -19,7 +19,7 @@ scene1.on('message', (ctx) => {
 
 var scene2 = new Scene("scene2");
 scene2.enter((ctx) => ctx.reply(scene2Greet));
-scene1.on('message', (ctx) => {
+scene2.on('message', (ctx) => {
     if (ctx.message.text === "16d982r")
         ctx.scene.enter("scene2");
     else
