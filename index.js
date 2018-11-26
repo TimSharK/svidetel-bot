@@ -80,3 +80,4 @@ bot.use(stage);
 bot.start((ctx) => ctx.scene.enter("scene1"));
 
 module.exports = bot
+
