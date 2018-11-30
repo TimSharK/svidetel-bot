@@ -17,6 +17,7 @@ var scene5Greet = 'Вы обнаружили носовой платок, с б�
 
 
 
+
 var scene1 = new Scene("scene1");
 scene1.enter((ctx) => ctx.reply(scene1Greet));
 scene1.on('message', (ctx) => {
