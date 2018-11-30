@@ -45,6 +45,7 @@ scene3.on('message', (ctx) => {
         ctx.reply("Что-то пошло не так");
 });
 
+
 var scene4 = new Scene("scene4");
 scene4.enter((ctx) => ctx.reply(scene4Greet));
 scene4.on('message', (ctx) => {
